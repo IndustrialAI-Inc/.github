@@ -9,9 +9,9 @@
 
 > Follow tags with name for the PR prefixed with one of the 3 tags add:, modify:, or remove:
 
-E.g. [Bugfix] modify JWT token validation to handle decoding errors
-E.g. [Feature] add new file preview for .eml files in frontend
-E.g. [Refactor] modify add_user function and decompose into multiple pure functions
+- E.g. [Feature] add new file preview for .eml files in frontend
+- E.g. [Bugfix/Hotfix] (pick one in title tag) modify JWT token validation to handle decoding errors
+- E.g. [Refactor] modify add_user function and decompose into multiple pure functions
 
 ## PR Body Templates
 
@@ -35,13 +35,13 @@ E.g. [Refactor] modify add_user function and decompose into multiple pure functi
 - [ ] Code compiles and passes all tests and CI checks.
 - [ ] Documentation updated.
 
-### Bugfix PR Body Template
+### Bugfix/Hotfix PR Body Template
 
 #### Summary
 
 - 2 to 3 line summary of the problem and the solution.
+- Note if temporary hotfix or robust bugfix fix.
 - E.g. Added type validation to file upload to prevent errors when uploadings invalid file types.
-- Note if temporary hotfix or robust fix.
 
 #### Checklist
 
@@ -66,6 +66,6 @@ E.g. [Refactor] modify add_user function and decompose into multiple pure functi
 
 #### Checklist
 
-- [ ] Tests added for new functionality (if robust fix).
+- [ ] Tests updated for modified functionality.
 - [ ] Code compiles and passes all tests and CI checks.
 - [ ] Documentation updated.
